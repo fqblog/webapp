@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+	<link rel="stylesheet" type="text/css" href="./css/common/libs/swiper/swiper_animate.css">
+	<link rel="stylesheet" type="text/css" href="./css/common/libs/swiper/swiper_min.css">
+	<link rel="stylesheet" type="text/css" href="./css/common/libs/swiper/animate_min.css">
+	<title>index</title>
+</head>
+<body>
+	<div id="music"><audio src="./audio/music.mp3" autoplay id="music_mp3" loop="true"></audio></div>
+	<div class="swiper-container">
+
+		<div class="swiper-wrapper">
+			<div class="swiper-slide one jq22">
+				<p class="ani animated swing"></p>
+				<p class="ani animated bounceIn title" id="container">
+					<!-- <span>个</span><span>人</span><span>简</span><span>历</span> -->
+					
+						<div id="fq">
+							我的简历
+						</div>
+				</p>
+				<p class="animated rotateInDownLeft ani" swiper-animate-effect="shake" swiper-animate-duration="3.5s" swiper-animate-delay="4.3s">
+							姓名：　攻城狮						
+                 </p>
+                 <p class="animated slideInLeft ani" swiper-animate-effect="shake" swiper-animate-duration="3.5s" swiper-animate-delay="4.3s">
+							别名：　程序猿						
+                 </p>
+                  <p class="animated slideInRight ani" swiper-animate-duration="3.5s" swiper-animate-delay="4.3s">
+							爱好：　棕经理					
+                 </p>
+                  <p class="animated rotateInDownRight ani" swiper-animate-duration="3.5s" swiper-animate-delay="4.3s">
+							职位：　蜥蜴欧						
+                 </p>
+			</div>
+			<div class="swiper-slide two">
+				<p class="pnode">
+					<canvas id="c" style="border-right: none;"></canvas>
+				</p>
+			</div>
+			<div class="swiper-slide three">
+				<p class="ani flower"></p>
+				<p class="ani flower"></p>
+				<p class="cont">一位来自黄山的90后小伙，已经错过了1996年Java的兴起，2000年Web开发的大潮，也好像错过了2012年3G/4G移动互联网的全球热潮，还想错过如今H5引领的web全栈大前端时代？</p>
+			</div>
+			<div class="swiper-slide four">
+				<p class="des">
+					<span>my name fq let's go</span>
+				</p>
+				<p class="bg"><img src="../img/wechat.png"></p>
+				<p><button id="enter"><span>进</span><span>入</span><span>主</span><span>页</span>&nbsp;<span>》</span></button></p>
+			</div>
+		</div>
+		<div class="swiper-pagination"></div>
+	</div>
+
+
+	<!-- 主页 -->
+	<div class="mainContainer" style="display: none;">
+		<div id="header"><button id="me">-</button><span>我的简历</span><button id="camera">+</button></div>
+		<div id="wrapper">
+			<div id="scroller">
+					<ul>
+						滚动去
+					</ul>
+			</div>
+		</div>
+
+		<div id="footer">
+			<ul>
+				<button id="skill"><img src="./img/camera.png"><span>佳能</span></button>
+				<button id="work"><img src="./img/car.png"><span>工作</span></button>
+				<button id="life"><img src="./img/hourse.png"><span>经验</span></button>
+				<button id="my"><img src="./img/person.png"><span>我的</span></button>
+			</ul>
+		</div>
+	</div>
+
+	<script src="./js/common/libs/jq/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="./js/common/libs/jq/jquery.fireworks.js"></script>
+	<script type="text/javascript" src="./js/common/libs/swiper/swiper.min.js"></script>
+	<script type="text/javascript" src="./js/common/libs/zepto/zepto_min.js"></script>
+	<script type="text/javascript" src="./js/common/libs/iscroll/iscroll.js"></script>
+	<script type="text/javascript" src="./js/common/libs/jq/app.js"></script>
+	<script type="text/javascript" src="./js/main.js">
+		//var Swiper=require("./js/common/libs/swiper/swiper.min.js");
+	
+	</script>
+	<script type="text/javascript">
+		$('.jq22').fireworks({ 
+		  sound: false, // 另外的声音的影响
+		  opacity: 0.2, 
+		  width: '100%', 
+		  height: '100%' 
+		});
+	</script>
+</body>
+</html>

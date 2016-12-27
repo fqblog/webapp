@@ -1,0 +1,50 @@
+@import "./common/libs/swiper/swiper_animate.css";
+@import "./common/libs/swiper/swiper_min.css";
+
+*{
+	margin: 0;
+	padding: 0
+}
+/*屏幕高度媒体查询*/
+@media screen and (max-width: 768px){
+	.swiper-container{
+		height: 1024px;
+	}
+}
+@media screen and (max-width: 415px){
+	.swiper-container{
+		height: 736px;
+	}
+}
+@media screen and (max-width: 412px){
+	.swiper-container{
+		height: 732px;
+	}
+}
+@media screen and (max-width: 375px){
+	.swiper-container{
+		height: 667px;
+	}
+}
+@media screen and (max-width: 320px){
+	.swiper-container{
+		height: 568px;
+	}
+}
+.swiper-container{
+	width: 100%;	
+}
+
+.one{
+	background-color: pink;
+	font-size: 34px
+}
+.two{
+	background-color: gray
+}
+.three{
+	background-color: red
+}
+.four{
+	background-color: yellow
+}
